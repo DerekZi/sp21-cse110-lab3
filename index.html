@@ -25,8 +25,8 @@
         <section>
             <h3>Highlights of the day</h3>
                 <ul>
-                    <li>Have some time to cook </li>
-                    <img src="day1cook.jpeg" alt="steamed fish" width="250"/>
+                    <li>Have some time to cook <br> <img src="day1cook.jpeg" alt="steamed fish" width="250"/></li>
+                    
                     <li>Being able to find professors to write letter of recommendation</li>
 
                 </ul>
@@ -49,24 +49,24 @@
                 controls
                 src="Ed_Sheeran_-_Perfect_talkglitz.tv.mp3"></audio>
             <div>One funny video I have watched today </div>
-            <video controls><source src="Pexels Videos 1699798.mp4"></video>
+            <video controls><source src="video.mp4"></video>
         </section>
         <hr>
         <h2 id="Tuesday">April/6/2021</h2>
         <section>
             <h3>Highlights of the day</h3>
                 <ul>
-                    <li><strong><em>Finally</em></strong> be able to take some <em>delicious</em> dim sum <span>&#128523;</span></li>
-                    <img src="day2.jpeg" alt="dim sum" width="250"/>
-                    <details>
-                        <summary><i>Details</i> for what I have ordered</summary>
-                        Blueberry Mochi Ball<br>
-                        Classic Shrimp Dumpling<br>
-                        Radish Cake With XO Sauce<br>
-                        Pork and shrimp Siu Mai<br>
-                        Rainbow Prawn Rice Crepe<br>
-                    </details>
-                    <br>
+                    <li><strong><em>Finally</em></strong> be able to take some <em>delicious</em> dim sum <span>&#128523;</span><br>
+                         <img src="day2.jpeg" alt="dim sum" width="250"/><br>
+                         <details>
+                            <summary><i>Details</i> for what I have ordered</summary>
+                            Blueberry Mochi Ball<br>
+                            Classic Shrimp Dumpling<br>
+                            Radish Cake With XO Sauce<br>
+                            Pork and shrimp Siu Mai<br>
+                            Rainbow Prawn Rice Crepe<br>
+                        </details>
+                    </li>
                     <li>Filled out most parts of my CSE BS/MS Application</li>
                     </ul>
             <h3>Lowlights of the day</h3>
@@ -99,8 +99,10 @@
             <h3>Highlights of the day</h3>
                 <ul>
                     <li><strong><em>Finally</em></strong> finish the programming assignment for CSE130</li>
-                    <li>Cook walnut prawn by myself</li>
-                    <img src="walnut_prawn.jpeg" alt="walnut prawn" width="250"/>
+                    <li>Cook walnut prawn by myself<br>
+                        <img src="walnut_prawn.jpeg" alt="walnut prawn" width="250"/>
+                    </li>
+                    
                     </ul>
             <h3>Lowlights of the day</h3>
                 <ul>
@@ -118,8 +120,8 @@
             <audio
                 controls
                 src="https://www.televisiontunes.com/uploads/audio/Coco%20-%20Remember%20Me.mp3"></audio>
-            <h3>A instagram post that encourages me </h3>
-            <img src="Screen Shot 2021-04-08 at 8.59.53 AM.png" alt="A instagram post" width="250">
+            <h3>A instagram post that inspires me </h3>
+            <img src="post.png" alt="A instagram post" width="250">
         </section>
     </main>
     <footer>
@@ -133,26 +135,19 @@
             <option value="Interested in food I take">
         </datalist>
         <br><br>
-        <form action="" method="get">
-            <div>
-                <label for="name">Enter your name: </label>
-                <input type="text" id="name" name="name" required>
-            </div>
-        </form>
-        <br>
-        <label for="date choice">Share your journal in any of the last three days if you like</label><br><br>
+        <label for="date-choice">Share your journal in any of the last three days if you like</label><br><br>
         <fieldset>
             <div>
-                <input type="radio" id="Monday" value="Monday">
-                <label for="Monday"><input type="date" value="2021-04-05"></label>
+                <input type="radio" id="Day1" value="Day1">
+                <label for="Day1"><input type="date" value="2021-04-05"></label>
             </div>
             <div>
-                <input type="radio" id="Tuesday" value="Tuesday">
-                <label for="Tuesday"><input type="date" value="2021-04-06"></label>
+                <input type="radio" id="Day2" value="Day2">
+                <label for="Day2"><input type="date" value="2021-04-06"></label>
             </div>
             <div>
-                <input type="radio" id="Wedsday" value="Wedsday">
-                <label for="Wedsday"><input type="date" value="2021-04-07"></label>
+                <input type="radio" id="Day3" value="Day3">
+                <label for="Day3"><input type="date" value="2021-04-07"></label>
             </div>
         </fieldset>
         <br>
@@ -165,7 +160,14 @@
             <option value="Instagram">Instagram:dadian@ins</option>
         </select>
         <br>
-        <button class="submission" type="button">Click to Share</button>
+        <form action="" method="get">
+            <div>
+                <label for="name">Enter your name: </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <button class="submission" type="button">Click to Share</button>
+        </form>
+        
     </footer>
 </body>
 </html>
