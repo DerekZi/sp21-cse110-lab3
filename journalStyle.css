@@ -13,3 +13,21 @@
     background-color: rgb(8, 8, 8);
     text-align: center;
 }
+h1{
+    font-size: 1.5cm;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 1.5pc;
+}
+.high li{
+    font-size: 1.2em;
+    width: 100vw;
+    
+}
+.low li{
+    font-size: 3ex;
+    width: 100vw; 
+}
