@@ -28,7 +28,7 @@ body{
     <hr>
     <main>
         <h2 id="Monday">April/5/2021</h2>
-        <section>
+        <section class="box1">
             <h3>Highlights of the day</h3>
                 <ul class="high">
                     <li>Have some time to cook <br> <img src="day1cook.jpeg" alt="steamed fish" width="250"/></li>
@@ -59,7 +59,7 @@ body{
         </section>
         <hr>
         <h2 id="Tuesday">April/6/2021</h2>
-        <section>
+        <section class="box2">
             <h3>Highlights of the day</h3>
                 <ul class="high">
                     <li><strong><em>Finally</em></strong> be able to take some <em>delicious</em> dim sum <span>&#128523;</span><br>
@@ -101,9 +101,9 @@ body{
         </section>
         <hr>
         <h2 id="Wedsday">April/7/2021</h2>
-        <section>
+        <section class="box3">
             <h3>Highlights of the day</h3>
-                <ul>
+                <ul class="high">
                     <li><strong><em>Finally</em></strong> finish the programming assignment for CSE130</li>
                     <li>Cook walnut prawn by myself<br>
                         <img src="walnut_prawn.jpeg" alt="walnut prawn" width="250"/>
@@ -111,7 +111,7 @@ body{
                     
                     </ul>
             <h3>Lowlights of the day</h3>
-                <ul>
+                <ul class="low">
                     <li>Feel a little pain for my scar since I did a surgery in Feburary</li>
                     <li>Feel upset because of getting rejected by Facebook</li>
                 </ul>
@@ -132,47 +132,50 @@ body{
     </main>
     <footer>
         <h2 id="Share">Share</h2>
-        <label for="comment">How do you feel about my journal:</label>
-        <input list="comment-choice" id="comment" name="comment" />
-        <datalist id="comment-choice">
-            <option value="Interesting">
-            <option value="Fair">
-            <option value="Boring">
-            <option value="Interested in food I take">
-        </datalist>
-        <br><br>
-        <label>Share your journal in any of the last three days if you like</label><br><br>
-        <fieldset>
-            <div>
-                <input type="radio" id="D1" value="D1">
-                <label for="Day1"><input id="Day1" type="date" value="2021-04-05"></label>
-            </div>
-            <div>
-                <input type="radio" id="D2" value="D2">
-                <label for="Day2"><input id="Day2" type="date" value="2021-04-06"></label>
-            </div>
-            <div>
-                <input type="radio" id="D3" value="D3">
-                <label for="Day3"><input id="Day3" type="date" value="2021-04-07"></label>
-            </div>
-        </fieldset>
-        <br>
-        <textarea rows="10" cols="50">You can enter your journal here</textarea>
-        <br>
-        <label for="contact">Select the way you want to see my latest post</label>
-        <select id="contact">
-            <option value="">Please select one of these options</option>
-            <option value="Facebook">Facebook:dadian@facebook</option>
-            <option value="Instagram">Instagram:dadian@ins</option>
-        </select>
-        <br>
-        <form>
-            <div>
-                <label for="name">Enter your name: </label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <button class="submission" type="button">Click to Share</button>
-        </form>
+        <section class="box4">
+            <label for="comment">How do you feel about my journal:</label>
+            <input list="comment-choice" id="comment" name="comment" />
+            <datalist id="comment-choice">
+                <option value="Interesting">
+                <option value="Fair">
+                <option value="Boring">
+                <option value="Interested in food I take">
+            </datalist>
+            <br><br>
+            <label>Share your journal in any of the last three days if you like</label><br><br>
+            <fieldset>
+                <div>
+                    <input type="radio" id="D1" value="D1">
+                    <label for="Day1"><input id="Day1" type="date" value="2021-04-05"></label>
+                </div>
+                <div>
+                    <input type="radio" id="D2" value="D2">
+                    <label for="Day2"><input id="Day2" type="date" value="2021-04-06"></label>
+                </div>
+                <div>
+                    <input type="radio" id="D3" value="D3">
+                    <label for="Day3"><input id="Day3" type="date" value="2021-04-07"></label>
+                </div>
+            </fieldset>
+            <br>
+            <textarea rows="10" cols="50">You can enter your journal here</textarea>
+            <br>
+            <label for="contact">Select the way you want to see my latest post</label>
+            <select id="contact">
+                <option value="">Please select one of these options</option>
+                <option value="Facebook">Facebook:dadian@facebook</option>
+                <option value="Instagram">Instagram:dadian@ins</option>
+            </select>
+            <br>
+            <form>
+                <div>
+                    <label for="name">Enter your name: </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <button class="submission" type="button">Click to Share</button>
+            </form>
+        </section>
+        
         
     </footer>
 </body>
