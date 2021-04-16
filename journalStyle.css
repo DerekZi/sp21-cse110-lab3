@@ -76,3 +76,13 @@ h3{
     font-size: 3ex;
     width: 100vw; 
 }
+div{
+    font-size: 3ex;
+    text-decoration: underline;
+    width: 400px;
+    height: 50%;
+}
+textarea{
+    max-width: 1000px;
+    min-width: none;
+}
