@@ -100,3 +100,18 @@ button:hover{
 a:active{
     color: antiquewhite;
 }
+.flex-container{
+    
+    display:flex;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(32, 218, 131);
+    flex-direction:  column;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: flex-end;
+}
+.flex-container > div{
+    background-color: cyan;
+}
