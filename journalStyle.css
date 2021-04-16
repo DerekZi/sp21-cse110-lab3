@@ -61,6 +61,9 @@
 .box4{
     margin:auto;
 }
+.box5{
+    margin: auto;
+}
 h1{
     font-size: 1.5cm;
 }
@@ -115,3 +118,19 @@ a:active{
 .flex-container > div{
     background-color: cyan;
 }
+.grid-container {
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aquamarine;
+    justify-content: space-around;
+    row-gap: 10px;
+    padding:10px;
+  }
+.grid-item {
+    background-color: whitesmoke;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
