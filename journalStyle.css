@@ -2,6 +2,7 @@
     color:rgb(250, 100,50);
     background-color:aquamarine; /*background color added to make title obvious*/
     text-align: center;
+    text-decoration: underline red;
     margin-top: 50px;
     margin-left: 30px;
     margin-right: 2em;
@@ -21,6 +22,7 @@
 #Tuesday{
     color: #f12c12;
     background-color: antiquewhite;
+    text-decoration: underline black;
     text-align: center;
     margin-top: 50px;
     margin-left: 30px;
@@ -38,6 +40,7 @@
 #Wedsday{
     color:hsl(81, 94%, 49%);
     background-color: rgb(8, 8, 8);
+    text-decoration: underline blanchedalmond;
     text-align: center;
     margin-top: 50px;
     margin-left: 30px;
