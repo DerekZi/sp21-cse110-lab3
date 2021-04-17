@@ -1,3 +1,8 @@
+@media only screen and (max-width:1000px){
+    .box5{
+        display: none;
+    }
+}
 #Monday{
     position:static;
     color:rgb(250, 100,50);
