@@ -1,10 +1,16 @@
+*{
+    font-size: 16px;
+}
+a[href^="https"]{
+    color:blue;
+}
 @media only screen and (max-width:1000px){
     .box5{
-        display: none;
+        display: none; 
     }
 }
 body{
-    font-family:'Zen Dots', cursive;
+    font-family:'Zen Dots', cursive; /*third party font*/
 }
 #Monday{
     position:static;
@@ -21,7 +27,7 @@ body{
     margin: 50px 2em 100px 30px;
     border-style: dotted;
     border-width: 10px;
-    border-color: red black blue cyan;
+    border-color: red black blue cyan; /*background color added to make obvious*/
     border-radius: 5% 5%;
     padding-top: 20px;
     padding-right: 30px;
@@ -44,14 +50,14 @@ body{
     margin: 50px 2em 100px 30px;
     border-style: dotted;
     border-width: 10px;
-    border-color: green yellow rgb(160, 116, 95) red;
+    border-color: green yellow rgb(160, 116, 95) red; /*background color added to make obvious*/
     border-radius: 5% 5%;
     padding: 20px 30px 40px 80px ;
 }
 #Wedsday{
     color:hsl(81, 94%, 49%);
-    background-color: rgb(8, 8, 8);
-    text-decoration: underline blanchedalmond;
+    background-color: rgb(8, 8, 8);/*background color added to make obvious*/
+    text-decoration: underline blanchedalmond; 
     text-align: center;
     margin-top: 50px;
     margin-left: 30px;
@@ -114,8 +120,7 @@ button:hover{
 a:active{
     color: antiquewhite;
 }
-.flex-container{
-    
+div.flex-container{
     display:flex;
     width: 100%;
     margin: 10px;
@@ -124,9 +129,9 @@ a:active{
     flex-wrap: wrap; 
     justify-content: space-evenly;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
-.flex-container > div{
+div.flex-container > div{
     background-color: cyan;
 }
 .grid-container {
@@ -144,4 +149,16 @@ a:active{
     padding: 10px;
     font-size: 20px;
     text-align: center;
+  }
+  label,h3{
+      color:darkkhaki;
+  }
+  h3~div{
+      background-color: greenyellow;
+  }
+  div + h3{
+      background-color: #f12c12;
+  }
+  blockquote p{
+      background-color: yellow;
   }
