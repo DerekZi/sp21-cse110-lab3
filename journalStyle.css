@@ -3,6 +3,9 @@
         display: none;
     }
 }
+body{
+    font-family:'Zen Dots', cursive;
+}
 #Monday{
     position:static;
     color:rgb(250, 100,50);
